@@ -1,0 +1,66 @@
+.playlist-container{
+    padding: 10px;
+    height: 95%;
+    overflow: scroll;
+    position:sticky;
+}
+.playlist-header{
+    margin-top: 5px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: sticky;
+}
+.playlist-image{
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+    background-image: url('https://img.freepik.com/free-photo/long-hair-guitar-guy-singing-low-view_23-2148751621.jpg?size=626&ext=jpg&ga=GA1.1.548251068.1702657662&semt=sph');
+    background-size: cover;
+}
+.playlist-body{
+    color: aliceblue;
+}
+.playlist-body h1{
+    font-size: 2.5rem;
+}
+.playlist-list{
+    color: aliceblue;
+    margin: 20px;
+    display: flex;
+}
+.playlist-list-title{
+    width: 27%;
+}
+.playlist-list-artist{
+    width: 33%;
+}
+.playlist-list-album{
+    width: 30%;
+}
+.playlist-list-duration{
+    width: 10%;
+}
+.playlist-list-container{
+    height: 35vh;
+    overflow-y:scroll ;
+}
+.playlist-list-container::-webkit-scrollbar{
+    display: none;
+  }
+  .playlist-list-title:hover{
+    cursor: pointer;
+    color: rgb(23, 172, 28);
+    font-weight: 200;
+  }
+  .playlist-list-artist:hover{
+    cursor: pointer;
+    color: rgb(23, 172, 28);
+    font-weight: 200;
+  }
+  .playlist-list-album:hover{
+    cursor: pointer;
+    color: rgb(23, 172, 28);
+    font-weight: 200;
+  }
+

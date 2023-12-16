@@ -1,0 +1,27 @@
+.sidebar-item-container{
+    color:aliceblue;
+}
+.sidebar-items{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    gap: 8px;
+    height: 100%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.sidebar-items:hover{
+    font-weight: 700;
+}
+.side-options{
+    margin-top:40px;
+    margin-left: 7px;
+}
+.side-bar-items{
+    margin: 15px;
+    cursor: pointer;
+}
+.side-bar-items:hover{
+    color: rgb(23, 172, 28);
+    font-weight: 500;
+}
